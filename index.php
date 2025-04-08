@@ -20,6 +20,14 @@ echo "Hello World!"; // Output Hello World
 // in terminal, php index.php
 echo "\nHello World!\n"; // Output Hello World with new line for easier reading
 // in terminal, php index.php
+
+// Variables
+// Variables are used to store data
+// In PHP, variables are declared using the $ sign followed by the variable name
+// Variable names can contain letters, numbers, and underscores
+// Variable names must start with a letter or an underscore
+// Variable names cannot start with a number
+// Variable names are case-sensitive
 $name = "Alice";
 echo "Hello, $name!\n"; // Output Hello, Alice
 echo 'Hello, $name!\n'; // Output Hello, $name! (no variable substitution) \n is not interpreted
