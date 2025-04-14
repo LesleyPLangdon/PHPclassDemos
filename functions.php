@@ -9,9 +9,21 @@ Highlight the purpose of functions: reusability, modularity, clarity.
 Open ChatGPT, Gemini, or other favorite AI chat. Ask "Please compare and contrast functions in PHP and javaScript. I am learning PHP and I know some javaScript"
 */
 //////////// Add this after output starts running together
+
 function lb() {
     echo "\n";
 }
+/*  
+function currencyExchange(currency, num1, num2) {
+    return `{currency} converted to US dollars: 
+}
+*/
+function currEx($type, $amount, $exchange) {
+    $usd = $amount * $exchange;
+    echo "$type converted to US dolars: $usd USD";
+}
+currEx("yen", 405, .0065);
+lb();
 /*
 Syntax Overview:
 */
