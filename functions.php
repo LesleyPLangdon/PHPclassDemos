@@ -10,9 +10,9 @@ Open ChatGPT, Gemini, or other favorite AI chat. Ask "Please compare and contras
 */
 //////////// Add this after output starts running together
 
-// function lb() {
-//     echo "\n";
-// }
+function lb() {
+    echo "\n";
+}
 // /*  
 // function currencyExchange(currency, num1, num2) {
 //     return `{currency} converted to US dollars: 

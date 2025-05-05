@@ -1,4 +1,5 @@
 <?php
+
 $foodChoice = "pasta";
 switch ($foodChoice){
     case "pancakes":  
